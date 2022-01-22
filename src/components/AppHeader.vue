@@ -1,8 +1,21 @@
 <template>
   <header>
-    <h1>patobragado.com.br</h1>
+    <h1>Website {{host}}</h1>
   </header>
 </template>
+
+<script>
+export default {
+  name: 'Header',
+
+  data () {
+      return {
+        currentUrl: location.toString(),
+        host: location.host
+      }
+    }
+}
+</script>
 
 <style scoped>
   header {
