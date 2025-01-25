@@ -1,6 +1,10 @@
 <template>
   <header>
-    <h1>Website {{host}}</h1>
+    <section class="w-full mb-8">
+      <h1 class="text-2xl font-semibold text-gray-800">
+        Website {{host}}
+      </h1>
+    </section>
   </header>
 </template>
 
@@ -10,12 +14,3 @@ let currentUrl: string | number = location.toString();
 let host: string | number = location.host;
 </script>
 
-<style scoped>
-  header {
-    display: flex;
-    border-bottom: 1px solid #ccc;
-    padding: .1rem;
-    align-items: center;
-    justify-content: center;
-  }
-</style>

@@ -1,15 +1,16 @@
+<template>
+  <main class="flex min-h-screen flex-col p-8 max-w-4xl mx-auto">
+  <app-header />
+  <Parceiros />
+  <app-footer />
+  </main>>
+</template>
+
 <script setup lang="ts">
 import Parceiros from './components/Parceiros.vue'
 import AppHeader from './components/AppHeader.vue'
 import AppFooter from './components/AppFooter.vue'
 </script>
-
-<template>
-  <app-header />
-  <Parceiros />
-  <app-footer />
-
-</template>
 
 <style scoped>
 #app {

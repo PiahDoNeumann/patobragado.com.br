@@ -1,42 +1,23 @@
 <template>
-  <div class="parcerias">
-    <h3>Seja bem vindo e aproveite nossas parcerias e produtos de qualidade</h3>
-
-    <parceiro-santilena/>
-
-  </div>
+      <!-- Main content -->
+    <section class="w-full space-y-6 flex-grow">
+      <p class="text-lg text-gray-700">
+        Seja bem vindo e aproveite nossas parcerias e produtos de qualidade
+      </p>
+      
+      <h2 class="text-3xl font-bold text-emerald-500">
+        <a href="https://santilena.com.br">Por que a Santilena - Produtos Eletrônicos?</a>
+      </h2>
+      
+      <p class="text-gray-700">
+        Fornecendo produtos de qualidades a mais de 10 anos, buscando entregar sempre as melhores tecnologias para os nossos clientes e parceiros!
+      </p>
+      <a 
+        href="https://santilena.com.br" 
+        class="text-emerald-500 hover:text-emerald-600 underline block"
+      >
+        Site Oficial, Acesse Aqui
+      </a>
+    </section>
 </template>
 
-<script setup lang="ts">
-/*
-https://www.atacadaodaroupa.com/index.php?route=affiliate/login
-https://ui.awin.com/publisher-signup/br/awin/step1
-https://www.awin.com/br/afiliados
-https://www.sachii.com.br/index.php?route=information/information&information_id=13
-https://afiliados.compreroupa.com.br/
-https://www.marisa.com.br/promocao/c/afiliados
-https://br.shein.com/affiliate-a-427.html
-
-
-
-*/
-import ParceiroSantilena from './ParceiroSantilena.vue'
-
-</script>
-
-<style scoped>
-h3 {
-  margin: 40px 0 0;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
-</style>
