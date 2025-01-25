@@ -1,6 +1,5 @@
 {
-  "name": "patobragado.com.br",
-  "version": "1.0.0",
+  "name": "nuxt-app",
   "private": true,
   "type": "module",
   "scripts": {
