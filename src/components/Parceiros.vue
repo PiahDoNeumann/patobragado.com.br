@@ -7,7 +7,7 @@
   </div>
 </template>
 
-<script>
+<script setup lang="ts">
 /*
 https://www.atacadaodaroupa.com/index.php?route=affiliate/login
 https://ui.awin.com/publisher-signup/br/awin/step1
@@ -22,15 +22,6 @@ https://br.shein.com/affiliate-a-427.html
 */
 import ParceiroSantilena from './ParceiroSantilena.vue'
 
-export default {
-  name: 'Parceiros',
-  props: {
-    msg: String
-  },
-  components: {
-    ParceiroSantilena
-  }
-}
 </script>
 
 <style scoped>

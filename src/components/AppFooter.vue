@@ -4,13 +4,7 @@
   </footer>
 </template>
 
-<script>
-import { computed } from 'vue'
+<script setup lang="ts">
 
-export default {
-  setup () {
-    const year = computed(() => new Date().getFullYear())
-    return { year }
-  }
-}
+let year = new Date().getFullYear();
 </script>

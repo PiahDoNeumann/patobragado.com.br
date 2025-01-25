@@ -4,17 +4,10 @@
   </header>
 </template>
 
-<script>
-export default {
-  name: 'Header',
+<script setup lang="ts">
+let currentUrl: string | number = location.toString();
 
-  data () {
-      return {
-        currentUrl: location.toString(),
-        host: location.host
-      }
-    }
-}
+let host: string | number = location.host;
 </script>
 
 <style scoped>

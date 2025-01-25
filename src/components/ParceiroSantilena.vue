@@ -10,11 +10,6 @@
   </div>
 </template>
 
-<script>
-export default {
-  name: 'ParceiroSantilena',
-}
-</script>
 
 <style scoped>
 h3 {
